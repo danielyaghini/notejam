@@ -15,11 +15,11 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myproject',
-        'USER': 'myprojectuser',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'POSTGRES_DBNAME',
+        'USER': 'POSTGRES_USERNAME',
+        'PASSWORD': 'POSTGRES_PASSWORD',
+        'HOST': 'POSTGRES_HOST',
+        'PORT': 'POSTGRES_PORT',
     }
 }
 
